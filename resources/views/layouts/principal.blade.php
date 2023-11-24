@@ -4,15 +4,15 @@
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-        <title>CUCCHIARA - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Cucchiara"/>
+        <title>CYC Fondos - @yield('title')</title>
+        <meta property="og:title" content="Homepage | CYC Fondos"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
         <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Cucchiara"/>
+        <meta property="og:site_name" content="Fondos"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
@@ -41,12 +41,6 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/abrircuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
-                                Abrir cuenta
-                            </a>
-                            <a href="/abrircuenta" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
-                                Ingresar
-                            </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-color-cucchiara group pl-6">
@@ -78,28 +72,22 @@
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
                                     <a href="/acercade">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Nosotros</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Renta Mixta</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/servicios">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Servicios</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Dólares Renta Fija</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/fondos">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Fondos</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Pesos Renta Fija</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
                                     <a href="/investigacion">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">Research</span>
-                                    </a>
-                                </li>
-                                <li class="group pl-6">
-                                    <a href="/opereonline">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">Opere online</span>
-                                        <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Liquidez</span>
                                     </a>
                                 </li>
                             </ul>
@@ -118,19 +106,16 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">Nosotros</span></a>
+                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">CYC Renta Mixta</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">Servicios</span></a>
+                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">CYC Dólares Renta Fija</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">Fondos</span></a>
+                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">CYC Pesos Renta Fija</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/opereonline"><span class="cursor-pointer font-body font-semibold text-white">Opere online</span></a>
+                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">CYC Liquidez</span></a>
                             </li>
                         </ul>
                     </div>

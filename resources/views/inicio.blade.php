@@ -9,13 +9,12 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Soluciones financieras<br/>integrales
+                        Inverti en fondos<br/>Comunes de inversión
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            Te acompañamos a tomar las mejores decisiones de inversión,<br/>
-                            ofreciéndote una amplia gama de instrumentos financieros<br/>
-                            según tu objetivo, plazo y perfil de riesgo.
+                            Delega la administración de tus inversiones en un equipo de<br/>especialistas. Diversificate con poco capital. Ofrecemos fondos de<br/>inversión con diferentes perfiles de riesgo, plazo y rentabilidad.<br/>
+Elegí el fondo que mejor se adapte a tus objetivos.
                         </p>
                     </div>
                     <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
@@ -29,7 +28,7 @@
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">Cucchiara y Cía. S. A. es un Agente de Negociación, Liquidación y Compensación</span> que ofrece servicios integrales de gestión de carteras de inversión fomentando relaciones directas con sus clientes, individuales o corporativos, proporcionando soluciones financieras guiadas por la prudencia, transparencia, y responsabilidad.
+                            <span class="font-bold">CYC Administradora de Fondos S.A.</span> es un Agente de Administración de Productos de Inversión Colectiva (AAPIC) bajo el registro Nro. 54 de la Comisión Nacional de Valores (CNV). La empresa fue creada en  2016 y es la administradora de fondos perteneciente a Cucchiara y Cía S.A., Agente de Negociación, Liquidación y Compensación con más de 50 años de trayectoria en el mercado local.
                         </p>
                     </div>
                 </div>

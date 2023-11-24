@@ -1427,10 +1427,10 @@ html{
     color:rgb(28 64 195/var(--tw-text-opacity))
 }
 .text-color-cucchiara{
-    color:rgb(17, 32, 140)
+    color:#763161    
 }
 .border-color-cucchiara{
-    border-color: rgb(17, 32, 140)
+    border-color: #763161
 }
 .text-grey-5{
     color:rgb(167 167 167)
@@ -1695,7 +1695,7 @@ ul, ol {
  .hover-underline-animation {
    display: inline-block;
    position: relative;
-   color:rgb(17, 32, 140);
+   color:#763161;
  }
  
  .hover-underline-animation:after {
@@ -1706,7 +1706,7 @@ ul, ol {
    height: 2px;
    bottom: 0;
    left: 0;
-   background-color: rgb(17, 32, 140);
+   background-color: #763161;
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
  }
