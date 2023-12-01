@@ -71,22 +71,22 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-6">
-                                    <a href="/acercade">
+                                    <a href="/cycrentamixta">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Renta Mixta</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/servicios">
+                                    <a href="/cycdolaresrentafija">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Dólares Renta Fija</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/fondos">
+                                    <a href="/cycpesosrentafija">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Pesos Renta Fija</span>
                                     </a>
                                 </li>
                                 <li class="group pl-6">
-                                    <a href="/investigacion">
+                                    <a href="/cycliquidez">
                                         <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Liquidez</span>
                                     </a>
                                 </li>
@@ -106,16 +106,16 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/acercade"><span class="cursor-pointer font-body font-semibold text-white">CYC Renta Mixta</span></a>
+                                <a href="/cycrentamixta"><span class="cursor-pointer font-body font-semibold text-white">CYC Renta Mixta</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/servicios"><span class="cursor-pointer font-body font-semibold text-white">CYC Dólares Renta Fija</span></a>
+                                <a href="/cycdolaresrentafija"><span class="cursor-pointer font-body font-semibold text-white">CYC Dólares Renta Fija</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/fondos"><span class="cursor-pointer font-body font-semibold text-white">CYC Pesos Renta Fija</span></a>
+                                <a href="/cycpesosrentafija"><span class="cursor-pointer font-body font-semibold text-white">CYC Pesos Renta Fija</span></a>
                             </li>
                             <li class="py-4">
-                                <a href="/investigacion"><span class="cursor-pointer font-body font-semibold text-white">CYC Liquidez</span></a>
+                                <a href="/cycliquidez"><span class="cursor-pointer font-body font-semibold text-white">CYC Liquidez</span></a>
                             </li>
                         </ul>
                     </div>
@@ -179,24 +179,23 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                                        <div class="pt-1 font-bold">Normativas<br/>RG 917/2021 CNV</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                    info@cycfondos.com.ar<br/>Sarmiento 470 - 3 Piso, Of. 309<br/>C.A.B.A. Argentina<br/>Tel: +54 11 4394 0063
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
                                 <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8">
-                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white pr-6"></i>
-                                    <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
+                                    
                                 </div>
                                 <div class="xs:pb-8">
                                     <img src="{{ asset('/img/logos_Data Fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
+                        <div class="grid justify-items-center items-center gap-6 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-5 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
@@ -213,39 +212,19 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                                    <div><img src="{{ asset('/img/footer_06.png') }}" class="" alt="footer_06"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cadab.org.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
                                 <a href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl" alt="footer_07"/></div>
+                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="" alt="footer_07"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="lg:w-28 xl:w-40 lg:max-w-4xl xl:max-w-4xl xl:pl-4" alt="footer_08"/></div>
+                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
                                 </a>
                             </div>
                         </div>
                         <div class="text-center py-6">
-                            <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
-                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo porFolklore</div>
+                            <div>AAPIC registro Nro. 54 CNV.</div>
+                            <div>© 2023 CYC Administradora de Fondos S.A. Todos los derechos reservados. Diseño y desarrollo por Folklore </div>
                         </div>
                     </div>
                 </div>

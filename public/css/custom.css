@@ -1094,7 +1094,7 @@ html{
     content: "";
     width: 60%;
     height: 3px;
-    background: rgb(17, 32, 140);
+    background: #763161;
     position: absolute;
     top: 0;
     left: 0;
@@ -1105,7 +1105,7 @@ html{
 
 .bg-primary{
     --tw-bg-opacity:1;
-    background-color:rgb(28 64 195/var(--tw-bg-opacity))
+    background-color: #763161
 }
 .bg-secondary{
     background-color:rgb(5, 9, 78)
@@ -1428,6 +1428,9 @@ html{
 }
 .text-color-cucchiara{
     color:#763161    
+}
+.border-a-color{
+    color: #8ADBF4
 }
 .border-color-cucchiara{
     border-color: #763161
