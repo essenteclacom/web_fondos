@@ -70,24 +70,24 @@
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/cycrentamixta">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Renta Mixta</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">CYC Renta Mixta</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/cycdolaresrentafija">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Dólares Renta Fija</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">CYC Dólares Renta Fija</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/cycpesosrentafija">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Pesos Renta Fija</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">CYC Pesos Renta Fija</span>
                                     </a>
                                 </li>
-                                <li class="group pl-6">
+                                <li class="group pl-20">
                                     <a href="/cycliquidez">
-                                        <span class="hover-underline-animation cursor-pointer pt-0.5 mr-6-menus font-body font-bold text-primary text-color-cucchiara">CYC Liquidez</span>
+                                        <span class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara">CYC Liquidez</span>
                                     </a>
                                 </li>
                             </ul>

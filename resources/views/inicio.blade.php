@@ -6,7 +6,7 @@
     {{-- slide --}}
     <div>
         <div class="sm:bg-no-repeat md:bg-no-repeat lg:relative lg:bg-cover lg:bg-center lg:bg-no-repeat xl:w-full xl:max-w-full xl:overflow-hidden xl:h-auto xl:grid xl:bg-cover xl:bg-no-repeat xl:bg-top justify-center items-center" style="background-image: url('{{ asset('/img/background_home.png')}}')">
-            <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-96">
+            <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-48">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
                         Inverti en fondos<br/>Comunes de inversión
@@ -17,12 +17,11 @@
                             Elegí el fondo que mejor se adapte a tus objetivos.
                         </p>
                     </div>
-                    <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
-                        <img src="img/Animacion Cucchiara_Mesa de trabajo 1.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
-                    </div>
-                    <div class="xxs:h-32 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-40"></div>
+                    {{--<div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
+                         <img src="img/Animacion Cucchiara_Mesa de trabajo 1.png" class="xxs:hidden xs:hidden sm:hidden md:block md:w-[48rem] lg:w-[56rem] xl:w-[65rem]">
+                    </div>--}}
                 </div>
-                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left">
+                <div class="xxs:text-center xs:text-center md:text-left lg:text-left xl:text-left pt-40">
                     <span class="text-white font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
                         Nosotros
                     </span>
