@@ -3959,3 +3959,63 @@
 #48 /app/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
 #49 {main}
 "} 
+[2023-12-01 18:28:03] local.ERROR: Command "cache:cleaner" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:prune-stale-tags
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:cleaner\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:prune-stale-tags
+    cache:table
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:clear at /app/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /app/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->find()
+#1 /app/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#3 /app/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 
+[2023-12-01 18:28:20] local.ERROR: Command "view:cleaner" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:cache
+    view:clear {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"view:cleaner\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    config:clear
+    event:clear
+    optimize:clear
+    queue:clear
+    route:clear
+    view:cache
+    view:clear at /app/vendor/symfony/console/Application.php:725)
+[stacktrace]
+#0 /app/vendor/symfony/console/Application.php(262): Symfony\\Component\\Console\\Application->find()
+#1 /app/vendor/symfony/console/Application.php(174): Symfony\\Component\\Console\\Application->doRun()
+#2 /app/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(200): Symfony\\Component\\Console\\Application->run()
+#3 /app/artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#4 {main}
+"} 

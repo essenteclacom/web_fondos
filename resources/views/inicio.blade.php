@@ -39,7 +39,7 @@
     <div class="container text-center mt-40 xxs:px-0 lg:px-28 xl:px-48">
         <span class="text-color-cucchiara font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             ¿Qué es un Fondo?
-        </span> 
+        </span>
         <p class="font-body text-color-cucchiara pt-10 pb-10 font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
             Un Fondo Común de Inversión (FCI) es un instrumento financiero de inversión colectiva que reune capital de instituciones e individuos. Su administración se delega a expertos que toman decisiónes de inversión en pos de alcanzar los objetivos financieros de los inversores. Su estructura permite acceder con poco capital a una cartera diversificada de activos financieros, sean estos bonos, acciones, cauciones, depósitos a plazo, entre otros.
         </p>
@@ -88,7 +88,7 @@
                     </h4>
                 </div>
             </div>
-        </div>   
+        </div>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
             <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
                 <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
@@ -142,41 +142,41 @@
             Las suscripciones se realizan a través de nuestros Agentes Colocadores.
         </p>
         <div class="grid justify-items-center items-center gap-6 grid-cols-1">
-            <div class="flex justify-between items-center w-[34rem]">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.byma.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="" alt="logo_suscription_01"/></div>
                 </a>
-                <p class="text-left">
+                <p class="text-left my-10">
                     Cucchiara y Cia. S.A.<br/>
                     info@cucchiara.com.ar
                 </p>
             </div>
             <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex justify-between items-center w-[34rem]">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://cajadevalores.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="" alt="logo_suscription_02"/></div>
                 </a>
-                <p class="text-left">
+                <p class="text-left my-10">
                     Buenos Aires Valores S.A.<br/>
                     informes@bavsa.com
                 </p>
             </div>
             <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex justify-between items-center w-[34rem]">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.matbarofex.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="" alt="logo_suscription_03"/></div>
                 </a>
-                <p class="text-left">
+                <p class="text-left my-10">
                     Gio Bursátil S.A.<br/>
                     info@giobursatil.com
                 </p>
             </div>
             <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex justify-between items-center w-[34rem]">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.mae.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="" alt="logo_suscription_04"/></div>
                 </a>
-                <p class="text-left">
+                <p class="text-left my-10">
                     Bolsa y Mercados Argentinos<br/>
                     Email: info@byma.com.ar
                 </p>
