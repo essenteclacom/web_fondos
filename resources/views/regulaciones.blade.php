@@ -18,13 +18,12 @@
             <div class="container">
                 <div class="text-white xs:pr-0 lg:pr-20 pt-32">
                     <div class="text-xl font-bold max-w-3xl xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left lg:pl-0 xl:pl-[6.5rem]">
-                        Normativas
+                        Marco regulatorio
                     </div>
                 </div>
                 <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row xxs:items-center xs:items-center sm:items-start md:items-start lg:items-start xl:items-start justify-center pt-5 pb-32">
                     <div class="text-white xs:pr-0 lg:pr-20 pb-16">
                         <div class="text-base xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left max-w-3xl">
-                            Marco regulatorio<br/>
                             Los FCI se encuentran regulados y bajo la supervisión de la Comisión Nacional de Valores.<br/>
                             La CNV es la autoridad de fiscalización y registro en todo el territorio de la República Argentina de las sociedades Gerentes, las sociedades Depositarias y los Fondos.<br/>
                             La CNV tiene facultades para dictar la reglamentación que fuere necesaria para complementar las disposiciones vigentes, resolver casos no previstos en la Ley o el Decreto e interpretar las normas allí incluidas dentro del contexto económico imperante.
