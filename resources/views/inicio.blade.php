@@ -90,44 +90,116 @@
             </div>
         </div>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        Administración<br/>de cartera
-                    </h3>
-                </div>
-                <div>
-                   <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
-                </div>
-            </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        CYC DÓLAR<br/>RENTA FIJA
-                    </h3>
-                </div>
-                <div>
-                    <img src="{{ asset('/img/card_02.png') }}" alt="content marketing icon" class="xxs:w-20"/>
-                </div>
-            </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        CYC PESOS<br/>RENTA FIJA
-                    </h3>
-                </div>
-                <div>
-                    <img src="{{ asset('/img/card_03.png') }}" alt="Mobile Application icon" class="xxs:w-20"/>
+            <div class="wrapper-card">
+                <div class="single-card">
+                    <div class="front-card">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                            <div class="flex items-center xxs:text-center sm:text-left">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                    Administración<br/>de cartera
+                                </h3>
+                            </div>
+                            <div>
+                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back-card">
+                        <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
+                            <div class="flex items-center px-8">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                </h3>
+                            </div>
+                            <div class="pt-2">
+                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="rounded-lg sm:px-8 md:px-8 lg:px-20 xxs:py-12 xs:py-12 sm:py-12 md:py-12 xl:py-20 shadow-amplia bg-white flex xxs:flex-col xs:flex-col sm:flex-row justify-between items-center">
-                <div class="flex items-center xxs:text-center sm:text-left xxs:mb-6 sm:mb-0">
-                    <h3 class="text-color-cucchiara xxs:text-xs sm:text-lg font-body font-bold lg:text-xl xl:text-2xl">
-                        CYC<br/>LIQUIDEZ
-                    </h3>
+            <div class="wrapper-card">
+                <div class="single-card">
+                    <div class="front-card">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                            <div class="flex items-center xxs:text-center sm:text-left">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                    Administración<br/>de cartera
+                                </h3>
+                            </div>
+                            <div>
+                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back-card">
+                        <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
+                            <div class="flex items-center px-8">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                </h3>
+                            </div>
+                            <div class="pt-2">
+                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <img src="{{ asset('/img/card_04.png') }}" alt="Email Marketing icon" class="xxs:w-20"/>
+            </div>
+            <div class="wrapper-card">
+                <div class="single-card">
+                    <div class="front-card">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                            <div class="flex items-center xxs:text-center sm:text-left">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                    Administración<br/>de cartera
+                                </h3>
+                            </div>
+                            <div>
+                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back-card">
+                        <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
+                            <div class="flex items-center px-8">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                </h3>
+                            </div>
+                            <div class="pt-2">
+                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper-card">
+                <div class="single-card">
+                    <div class="front-card">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                            <div class="flex items-center xxs:text-center sm:text-left">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                    Administración<br/>de cartera
+                                </h3>
+                            </div>
+                            <div>
+                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back-card">
+                        <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
+                            <div class="flex items-center px-8">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                </h3>
+                            </div>
+                            <div class="pt-2">
+                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,9 +216,9 @@
         <div class="grid justify-items-center items-center gap-6 grid-cols-1">
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.byma.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="" alt="logo_suscription_01"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-48" alt="logo_suscription_01"/></div>
                 </a>
-                <p class="text-left my-10">
+                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Cucchiara y Cia. S.A.<br/>
                     info@cucchiara.com.ar
                 </p>
@@ -154,9 +226,9 @@
             <div class="border border-services-c w-[40rem]"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://cajadevalores.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="" alt="logo_suscription_02"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-48" alt="logo_suscription_02"/></div>
                 </a>
-                <p class="text-left my-10">
+                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Buenos Aires Valores S.A.<br/>
                     informes@bavsa.com
                 </p>
@@ -164,9 +236,9 @@
             <div class="border border-services-c w-[40rem]"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="" alt="logo_suscription_03"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-48" alt="logo_suscription_03"/></div>
                 </a>
-                <p class="text-left my-10">
+                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Gio Bursátil S.A.<br/>
                     info@giobursatil.com
                 </p>
@@ -174,9 +246,9 @@
             <div class="border border-services-c w-[40rem]"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
                 <a href="https://www.mae.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="" alt="logo_suscription_04"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-48" alt="logo_suscription_04"/></div>
                 </a>
-                <p class="text-left my-10">
+                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Bolsa y Mercados Argentinos<br/>
                     Email: info@byma.com.ar
                 </p>

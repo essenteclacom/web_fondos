@@ -371,7 +371,7 @@ select{
     --tw-backdrop-invert: ;
     --tw-backdrop-opacity: ;
     --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: 
+    --tw-backdrop-sepia:
 }
 .container{
     margin-left:auto;
@@ -1114,7 +1114,7 @@ html{
     background-color:rgb(17, 32, 140)
 }
 .bg-quarter{
-    background-color:rgb(17, 32, 137)
+    background-color:#763161
 }
 .bg-contact{
     background-color: rgb(250, 250, 255);
@@ -1157,7 +1157,7 @@ html{
 }
 .bg-cyan-20{
     --tw-bg-opacity:1;
-    background-color:rgb(141 222 247/var(--tw-bg-opacity)) 
+    background-color:rgb(141 222 247/var(--tw-bg-opacity))
 }
 .bg-button {
     background-color: #8ddef7
@@ -1427,7 +1427,7 @@ html{
     color:rgb(28 64 195/var(--tw-text-opacity))
 }
 .text-color-cucchiara{
-    color:#763161    
+    color:#763161
 }
 .border-a-color{
     color: #8ADBF4
@@ -1694,13 +1694,13 @@ ul, ol {
 .w3rcontainer{
     border: 1px solid rgb(17, 32, 140);
     border-radius: 2px;
- } 
+ }
  .hover-underline-animation {
    display: inline-block;
    position: relative;
    color:#763161;
  }
- 
+
  .hover-underline-animation:after {
    content: '';
    position: absolute;
@@ -1713,15 +1713,20 @@ ul, ol {
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
  }
- 
+
  .hover-underline-animation:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
  }
 
+ .selected-menu-underline {
+    text-decoration: underline 2px;
+    text-underline-offset: 4px;
+}
+
 /*CSS to animated flip 3d cards*/
 .wrapper-card, .single-card {
-	position: relative; 
+	position: relative;
 }
 .wrapper-card {
 	perspective: 900px;
@@ -1736,7 +1741,7 @@ ul, ol {
 .front-card, .back-card {
 	position: relative;
 	top: 0;
-	left: 0; 
+	left: 0;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1842,21 +1847,24 @@ ul, ol {
     }
     .xxs\:h-16{
         height:4rem
-    }  
+    }
     .xxs\:h-20{
         height:5rem
-    } 
+    }
     .xxs\:h-24{
         height:6rem
     }
     .xxs\:h-28{
         height:7rem
-    }  
+    }
     .xxs\:h-32{
         height:8rem
     }
     .xxs\:h-44{
         height:11rem
+    }
+    .xxs\:h-52{
+        height:13rem
     }
     .xxs\:h-40{
         height:10rem
@@ -1900,6 +1908,9 @@ ul, ol {
     .xxs\:w-56{
         width:14rem
     }
+    .xxs\:w-60{
+        width:15rem
+    }
     .xxs\:w-96{
         width:24rem
     }
@@ -1939,7 +1950,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xxs\:text-center{
         text-align:center
     }
@@ -2055,6 +2066,9 @@ ul, ol {
     .xxs\:pb-52{
         padding-bottom:13rem
     }
+    .xxs\:pl-24{
+        padding-left:6rem
+    }
     .xxs\:text-left{
         text-align:left
     }
@@ -2166,6 +2180,9 @@ ul, ol {
     .xs\:ml-16 {
         margin-left: 4rem;
     }
+    .xs\:ml-20 {
+        margin-left: 5rem;
+    }
     .xs\:mb-16 {
         margin-bottom: 4rem;
     }
@@ -2213,7 +2230,7 @@ ul, ol {
     }
     .xs\:h-c-4{
         height:4.25rem
-    }  
+    }
     .xs\:h-20{
         height:5rem
     }
@@ -2222,6 +2239,9 @@ ul, ol {
     }
     .xs\:h-44{
         height:11rem
+    }
+    .xs\:h-52{
+        height:13rem
     }
     .xs\:h-56{
         height:14rem
@@ -2252,6 +2272,9 @@ ul, ol {
     }
     .xs\:w-72{
         width:18rem
+    }
+    .xs\:w-80{
+        width:20rem
     }
     .xs\:w-96{
         width:24rem
@@ -2292,7 +2315,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xs\:text-center{
         text-align:center
     }
@@ -2387,6 +2410,12 @@ ul, ol {
     }
     .xs\:pb-52{
         padding-bottom:13rem
+    }
+    .xs\:pl-14{
+        padding-left: 3.5rem;
+    }
+    .xs\:pl-48{
+        padding-left: 12rem;
     }
     .xs\:text-left{
         text-align:left
@@ -2763,7 +2792,7 @@ ul, ol {
     }
 }
 /*lg*/
-@media screen and (min-width:1024px) { 
+@media screen and (min-width:1024px) {
     .container{
         max-width:1024px;
         padding-left:3rem;
@@ -2859,7 +2888,7 @@ ul, ol {
     }
     .lg\:grid-flow-col{
         grid-auto-flow: column;
-    }	
+    }
     .lg\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
     }
@@ -2883,7 +2912,7 @@ ul, ol {
     .lg\:border-t-2{
         border-top-width:2px
     }
-    .lg\:px-9{	
+    .lg\:px-9{
         padding-left: 2.25rem; /* 36px */
         padding-right: 2.25rem; /* 36px */
     }
