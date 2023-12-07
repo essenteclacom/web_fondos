@@ -1694,14 +1694,14 @@ ul, ol {
 .w3rcontainer{
     border: 1px solid rgb(17, 32, 140);
     border-radius: 2px;
- }
- .hover-underline-animation {
+}
+.hover-underline-animation {
    display: inline-block;
    position: relative;
    color:#763161;
- }
+}
 
- .hover-underline-animation:after {
+.hover-underline-animation:after {
    content: '';
    position: absolute;
    width: 100%;
@@ -1712,14 +1712,14 @@ ul, ol {
    background-color: #763161;
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
- }
+}
 
- .hover-underline-animation:hover:after {
+.hover-underline-animation:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
- }
+}
 
- .selected-menu-underline {
+.selected-menu-underline {
     text-decoration: underline 2px;
     text-underline-offset: 4px;
 }
