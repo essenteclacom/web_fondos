@@ -96,7 +96,7 @@
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
-                                    Administración<br/>de cartera
+                                    CYC RENTA<br/>MIXTA
                                 </h3>
                             </div>
                             <div>
@@ -124,7 +124,7 @@
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
-                                    Administración<br/>de cartera
+                                    CYC DOLAR<br/>RENTA FIJA
                                 </h3>
                             </div>
                             <div>
@@ -136,7 +136,7 @@
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
                                 <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
-                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                    Fondo de renta fija en dólares que se concentra en la inversión en bonos corporativos, soberanos y subsoberanos argentinos. El fondo busca obtener la mejor relación riesgo-retorno en comparación a la curvas soberanas y corporativas argentinas.
                                 </h3>
                             </div>
                             <div class="pt-2">
@@ -152,11 +152,11 @@
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
-                                    Administración<br/>de cartera
+                                    CYC PESOS<br/>RENTA FIJA
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/Pesos renta fija.png') }}" alt="development icon" class="xxs:w-20"/>
                             </div>
                         </div>
                     </div>
@@ -164,7 +164,7 @@
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
                                 <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
-                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                    Fondo de renta fija en pesos que se enfoca en títulos en moneda local con diferentes tipos de ajustes de capital e intereses y diversificación según emisor. Su objetivo es superar los rendimientos de los depósitos a plazo fijo.
                                 </h3>
                             </div>
                             <div class="pt-2">
@@ -180,11 +180,11 @@
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
-                                    Administración<br/>de cartera
+                                    CYC<br/>LIQUIDEZ
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/Liquidez.png') }}" alt="development icon" class="xxs:w-20"/>
                             </div>
                         </div>
                     </div>
@@ -192,7 +192,7 @@
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
                                 <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
-                                    Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
+                                    Fondo de mercado de dinero dinámico que busca generar rendimientos diarios estables en pesos invirtiendo en instrumentos de muy corto plazo, con alta liquidez y muy bajo riesgo de crédito.
                                 </h3>
                             </div>
                             <div class="pt-2">
