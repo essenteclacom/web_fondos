@@ -9,7 +9,7 @@
             <div class="container relative z-30 xxs:pb-48 xs:pb-52 sm:pb-72 md:pb-96 lg:pb-48">
                 <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Inverti en fondos<br/>Comunes de inversión
+                        Invertí en fondos<br/>Comunes de inversión
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
@@ -112,7 +112,7 @@
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycrentamixta" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -140,7 +140,7 @@
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycdolaresrentafija" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -168,7 +168,7 @@
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycpesosrentafija" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycliquidez" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
