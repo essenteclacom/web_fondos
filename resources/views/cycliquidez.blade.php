@@ -5,11 +5,14 @@
 @section('content')
     <div>
         {{-- slide --}}
-        <div style="background-image: url({{ asset('/img/Derechos.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-52 xs:h-52 sm:h-84 lg:h-72 xl:h-[32rem]">
-            <div class="container flex items-center justify h-full">
-                <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-3xl">
-                    Obtener rendimientos estables en pesos que incrementen el patrimonio neto del fondo invirtiendo en instrumentos financieros de muy corto plazo con alta liquidez y bajo riesgo de crédito y precio.
-                </p>
+        <div style="background-image: url({{ asset('/img/Derechos.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
+            <div class="container flex items-center justify-center h-full">
+                <div class="flex flex-col justify-center items-center w-full">
+                    <h1 class="font-body text-white text-shadow font-bold text-3xl pb-6 text-center">Gestiona tu liquidez en forma eficiente<br/>generando rendimientos a muy bajo riesgo</h1>
+                    <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
+                        CYC Liquidez es un fondo de mercado de dinero dinámico de rescate inmediato que busca generar rendimientos diarios estables en pesos. El fondo invierte en instrumentos de muy corto plazo y de alta liquidez: cuentas remuneradas, pases, cauciones bursátiles, plazos fijos, entre otros.
+                    </p>
+                </div>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
             </div>
         </div>

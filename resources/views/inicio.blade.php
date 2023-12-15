@@ -128,7 +128,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_02.png') }}" alt="development icon" class="xxs:w-20"/>
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/Pesos renta fija.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_03.png') }}" alt="development icon" class="xxs:w-20"/>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/Liquidez.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_04.png') }}" alt="development icon" class="xxs:w-20"/>
                             </div>
                         </div>
                     </div>
