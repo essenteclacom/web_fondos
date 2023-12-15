@@ -93,7 +93,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC RENTA<br/>MIXTA
@@ -121,7 +121,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC DOLAR<br/>RENTA FIJA
@@ -149,7 +149,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC PESOS<br/>RENTA FIJA
@@ -177,7 +177,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-10 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC<br/>LIQUIDEZ

@@ -1073,7 +1073,7 @@ html{
     border-color:rgb(146 146 147/var(--tw-border-opacity))
 }
 .border-services-c{
-    border-color:#8DDEF7
+    border-color:#8B2378
 }
 .border-white{
     --tw-border-opacity:1;
@@ -1214,7 +1214,7 @@ html{
     padding:.5rem
 }
 .p-custom-esp-buttom{
-    padding: 5px 12px 5px 12px
+    padding: 0px 12px 0px 12px
 }
 .py-6{
     padding-bottom:1.5rem;
@@ -1494,7 +1494,7 @@ html{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .shadow-amplia{
-    box-shadow: 5px 5px 5px rgba(0,0,0,.1);
+    box-shadow: 3px 3px 5px 5px rgba(0,0,0,0.2);
 }
 .shadow{
     --tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);

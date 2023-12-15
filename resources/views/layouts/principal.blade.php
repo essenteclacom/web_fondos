@@ -48,7 +48,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/home">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4 bg-white" href="/home">
                                                     ENG
                                                 </a>
                                             </li>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
@@ -194,7 +194,7 @@
                             </div>
                         </div>
                         <div class="flex justify-center items-center xxs:flex-col xs:flex-col sm:flex-col md:flex-row">
-                            <div class="grid justify-center items-center gap-6 grid-cols-3 mx-2">
+                            <div class="grid justify-center items-center gap-12 grid-cols-3 mx-2">
                                 <div>
                                     <a href="https://www.byma.com.ar/" target="_blank">
                                         <img src="{{ asset('/img/footer_01.png') }}" class="max-h-40" alt="footer_01"/>

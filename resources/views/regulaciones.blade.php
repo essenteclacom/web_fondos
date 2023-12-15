@@ -17,7 +17,7 @@
         <div class="bg-primary">
             <div class="container">
                 <div class="text-white xs:pr-0 lg:pr-20 pt-32">
-                    <div class="text-xl font-bold max-w-3xl xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left lg:pl-0 xl:pl-[6.5rem]">
+                    <div class="text-xl font-bold max-w-3xl xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left lg:pl-0 xl:pl-0">
                         Marco regulatorio
                     </div>
                 </div>

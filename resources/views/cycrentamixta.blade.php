@@ -5,7 +5,7 @@
 @section('content')
     <div>
         {{-- slide --}}
-        <div style="background-image: url({{ asset('/img/slide_background.png')}})" class="bg-cover bg-center bg-no-repeat xxs:h-52 xs:h-52 sm:h-84 lg:h-72 xl:h-[32rem]">
+        <div style="background-image: url({{ asset('/img/Derechos.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-52 xs:h-52 sm:h-84 lg:h-72 xl:h-[32rem]">
             <div class="container flex items-center justify h-full">
                 <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-2xl lg:text-2xl xl:text-3xl">
                     Tiene como objetivo optimizar el rendimiento de los activos que conforman el patrimonio neto del mismo, invirtiendo principalmente en instrumentos de renta variable en el mercado local. El fondo podrá tomar cobertura con opciones y destinar una porción de la cartera a instrumentos de renta fija en determinados contextos, con el objetivo de reducir la volatilidad propia del mercado accionario.
