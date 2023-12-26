@@ -89,8 +89,15 @@
                 </div>
             </div>
         </div>
+        <div class="pt-20">
+            <span class="text-color-cucchiara font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
+                Nuestros Fondos
+            </span>
+        </div>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
+            
             <div class="wrapper-card">
+                
                 <div class="single-card">
                     <div class="front-card">
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
@@ -100,7 +107,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_01.png') }}" alt="development icon" class="xxs:w-32"/>
                             </div>
                         </div>
                     </div>
@@ -128,7 +135,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_02.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_02.png') }}" alt="development icon" class="xxs:w-32"/>
                             </div>
                         </div>
                     </div>
@@ -156,7 +163,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_03.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_03.png') }}" alt="development icon" class="xxs:w-32"/>
                             </div>
                         </div>
                     </div>
@@ -184,7 +191,7 @@
                                 </h3>
                             </div>
                             <div>
-                               <img src="{{ asset('/img/card_04.png') }}" alt="development icon" class="xxs:w-20"/>
+                               <img src="{{ asset('/img/card_04.png') }}" alt="development icon" class="xxs:w-32"/>
                             </div>
                         </div>
                     </div>
