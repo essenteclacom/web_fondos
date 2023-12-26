@@ -221,7 +221,7 @@
             Las suscripciones se realizan a través de nuestros Agentes Colocadores.
         </p>
         <div class="grid justify-items-center items-center gap-6 grid-cols-1">
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.byma.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-48" alt="logo_suscription_01"/></div>
                 </a>
@@ -230,8 +230,8 @@
                     info@cucchiara.com.ar
                 </p>
             </div>
-            <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
+            <div class="border border-services-c w-full"></div>
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://cajadevalores.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-48" alt="logo_suscription_02"/></div>
                 </a>
@@ -240,8 +240,8 @@
                     informes@bavsa.com
                 </p>
             </div>
-            <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
+            <div class="border border-services-c w-full"></div>
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.matbarofex.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-48" alt="logo_suscription_03"/></div>
                 </a>
@@ -250,8 +250,8 @@
                     info@giobursatil.com
                 </p>
             </div>
-            <div class="border border-services-c w-[40rem]"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-[34rem]">
+            <div class="border border-services-c w-full"></div>
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.mae.com.ar/" target="_blank">
                     <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-48" alt="logo_suscription_04"/></div>
                 </a>
