@@ -100,7 +100,7 @@
                 
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC RENTA<br/>MIXTA
@@ -128,7 +128,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC DOLAR<br/>RENTA FIJA
@@ -156,7 +156,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC PESOS<br/>RENTA FIJA
@@ -184,7 +184,7 @@
             <div class="wrapper-card">
                 <div class="single-card">
                     <div class="front-card">
-                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-20 py-12">
+                        <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
                                 <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
                                     CYC<br/>LIQUIDEZ
@@ -217,13 +217,13 @@
         <span class="text-color-cucchiara font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             ¿Cómo suscribir a nuestros fondos?
         </span>
-        <p class="pb-20">
+        <p class="pb-20 text-2xl">
             Las suscripciones se realizan a través de nuestros Agentes Colocadores.
         </p>
         <div class="grid justify-items-center items-center gap-6 grid-cols-1">
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
                 <a href="https://www.byma.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-48" alt="logo_suscription_01"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-72" alt="logo_suscription_01"/></div>
                 </a>
                 <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Cucchiara y Cia. S.A.<br/>
@@ -231,9 +231,9 @@
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
                 <a href="https://cajadevalores.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-48" alt="logo_suscription_02"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-72" alt="logo_suscription_02"/></div>
                 </a>
                 <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Buenos Aires Valores S.A.<br/>
@@ -241,9 +241,9 @@
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-48" alt="logo_suscription_03"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-72" alt="logo_suscription_03"/></div>
                 </a>
                 <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Gio Bursátil S.A.<br/>
@@ -251,9 +251,9 @@
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
                 <a href="https://www.mae.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-48" alt="logo_suscription_04"/></div>
+                    <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-72" alt="logo_suscription_04"/></div>
                 </a>
                 <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Bolsa y Mercados Argentinos<br/>
