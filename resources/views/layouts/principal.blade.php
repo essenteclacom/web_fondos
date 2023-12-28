@@ -193,6 +193,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
                         <div class="flex justify-center items-center xxs:flex-col xs:flex-col sm:flex-col md:flex-row">
                             <div class="grid justify-center items-center gap-12 grid-cols-3 mx-2">
                                 <div>
@@ -224,6 +225,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey my-4"></div>
                         <div class="text-center py-6">
                             <div>AAPIC registro Nro. 54 CNV.</div>
                             <div>© 2023 CYC Administradora de Fondos S.A. Todos los derechos reservados. Diseño y desarrollo por Folklore </div>
