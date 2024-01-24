@@ -13,8 +13,7 @@
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            Delega la administración de tus inversiones en un equipo de<br/>especialistas. Diversificate con poco capital. Ofrecemos fondos de<br/>inversión con diferentes perfiles de riesgo, plazo y rentabilidad.<br/>
-                            Elegí el fondo que mejor se adapte a tus objetivos.
+                            Delega la administración de tus inversiones a especialistas.<br/>Diversificate con poco capital. Ofrecemos fondos comunes<br/>de inversión para diferentes perfiles de riesgo, plazo y<br/>rentabilidad. Elegí el que mejor se adapte a tus objetivos.
                         </p>
                     </div>
                     {{--<div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
@@ -45,24 +44,24 @@
         </p>
         <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
             <div class="grid grid-cols-4 gap-0 content-start">
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                <div class="flex flex-col items-center justify-center text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/home_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/home_01.png') }}" class="w-40" alt="icon project"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/home_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                        <img src="{{ asset('/img/home_02.png') }}" class="w-40" alt="icon award"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/home_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                        <img src="{{ asset('/img/home_03.png') }}"class="w-40" alt="icon happy clients"/>
                     </div>
                 </div>
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/home_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
+                        <img src="{{ asset('/img/home_04.png') }}"class="w-40" alt="icon puzzle"/>
                     </div>
                 </div>
             </div>
@@ -214,50 +213,50 @@
     {{-- end cards --}}
     {{-- open account --}}
     <div class="container text-center mt-40 xxs:px-0 lg:px-28 xl:px-48">
-        <span class="text-color-cucchiara font-body font-bold xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
+        <span class="text-color-cucchiara font-body font-bolder xxs:text-2xl sm:text-3xl lg:text-3xl xl:text-4xl">
             ¿Cómo suscribir a nuestros fondos?
         </span>
-        <p class="pb-20 text-2xl">
-            Las suscripciones se realizan a través de nuestros Agentes Colocadores.
+        <p class="pb-20 text-xl pt-4">
+            Las suscripciones se realizan a través de nuestros Agentes Colocadores (ACDIs).
         </p>
-        <div class="grid justify-items-center items-center gap-6 grid-cols-1">
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
+        <div class="grid justify-items-center items-center gap-6 grid-cols-1 px-24">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.byma.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-72" alt="logo_suscription_01"/></div>
+                    <div class="pl-20"><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-80" alt="logo_suscription_01"/></div>
                 </a>
-                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
+                <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52 pr-10">
                     Cucchiara y Cia. S.A.<br/>
-                    info@cucchiara.com.ar
+                    <u>info@cucchiara.com.ar</u>
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://cajadevalores.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-72" alt="logo_suscription_02"/></div>
+                    <div class="pl-20"><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-52" alt="logo_suscription_02"/></div>
                 </a>
-                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
+                <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Buenos Aires Valores S.A.<br/>
-                    informes@bavsa.com
+                    <u>informes@bavsa.com</u>
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-72" alt="logo_suscription_03"/></div>
+                    <div class="pl-20"><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-64" alt="logo_suscription_03"/></div>
                 </a>
-                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
+                <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Gio Bursátil S.A.<br/>
-                    info@giobursatil.com
+                    <u>info@giobursatil.com</u>
                 </p>
             </div>
             <div class="border border-services-c w-full"></div>
-            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row place-content-evenly items-center w-full">
+            <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
                 <a href="https://www.mae.com.ar/" target="_blank">
-                    <div><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-72" alt="logo_suscription_04"/></div>
+                    <div class="pl-20"><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-64" alt="logo_suscription_04"/></div>
                 </a>
-                <p class="xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
+                <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Bolsa y Mercados Argentinos<br/>
-                    Email: info@byma.com.ar
+                    <u>byma.fondos@byma.com.ar</u>
                 </p>
             </div>
         </div>
