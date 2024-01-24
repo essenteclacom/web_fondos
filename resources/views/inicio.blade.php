@@ -94,14 +94,12 @@
             </span>
         </div>
         <div class="grid grid-cols-2 xxs:gap-1 gap-y-10 pt-10 sm:gap-x-6 md:gap-x-14 lg:gap-x-14 xl:gap-x-20 md:pt-12">
-            
             <div class="wrapper-card">
-                
                 <div class="single-card">
                     <div class="front-card">
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
-                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-xl">
                                     CYC RENTA<br/>MIXTA
                                 </h3>
                             </div>
@@ -113,12 +111,12 @@
                     <div class="back-card">
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
-                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-base">
                                     Fondo en pesos, que se enfoca principalmente en acciones argentinas. Incluye una proporción menor de CEDEARs e instrumentos de renta fija en pesos. El fondo busca superar los rendimientos del S&P Merval.
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="/cycrentamixta" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycrentamixta" class="text-white font-body xxs:text-xxs sm:text-base font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +127,7 @@
                     <div class="front-card">
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
-                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-xl">
                                     CYC DOLAR<br/>RENTA FIJA
                                 </h3>
                             </div>
@@ -141,12 +139,12 @@
                     <div class="back-card">
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
-                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-base">
                                     Fondo de renta fija en dólares que se concentra en la inversión en bonos corporativos, soberanos y subsoberanos argentinos. El fondo busca obtener la mejor relación riesgo-retorno en comparación a la curvas soberanas y corporativas argentinas.
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="/cycdolaresrentafija" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycdolaresrentafija" class="text-white font-body xxs:text-xxs sm:text-base font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -157,7 +155,7 @@
                     <div class="front-card">
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
-                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-xl">
                                     CYC PESOS<br/>RENTA FIJA
                                 </h3>
                             </div>
@@ -169,12 +167,12 @@
                     <div class="back-card">
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
-                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-base">
                                     Fondo de renta fija en pesos que se enfoca en títulos en moneda local con diferentes tipos de ajustes de capital e intereses y diversificación según emisor. Su objetivo es superar los rendimientos de los depósitos a plazo fijo.
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="/cycpesosrentafija" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycpesosrentafija" class="text-white font-body xxs:text-xxs sm:text-base font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +183,7 @@
                     <div class="front-card">
                         <div class="flex justify-between items-center rounded-lg shadow-amplia bg-white xxs:flex-col xs:flex-col sm:flex-row h-56 xxs:p-0 sm:px-16 py-12">
                             <div class="flex items-center xxs:text-center sm:text-left">
-                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-2xl">
+                                <h3 class="text-color-cucchiara font-body font-bold xxs:text-xs sm:text-lg lg:text-xl xl:text-xl">
                                     CYC<br/>LIQUIDEZ
                                 </h3>
                             </div>
@@ -197,12 +195,12 @@
                     <div class="back-card">
                         <div class="bg-primary flex flex-col justify-center items-center rounded-lg shadow-amplia h-60">
                             <div class="flex items-center px-8">
-                                <h3 class="text-white font-body xxs:text-xxs sm:text-xs">
+                                <h3 class="text-white font-body xxs:text-xxs sm:text-base">
                                     Fondo de mercado de dinero dinámico que busca generar rendimientos diarios estables en pesos invirtiendo en instrumentos de muy corto plazo, con alta liquidez y muy bajo riesgo de crédito.
                                 </h3>
                             </div>
                             <div class="pt-2">
-                                <a href="/cycliquidez" class="text-white font-body xxs:text-xxs sm:text-xs font-bold underline underline-offset-4">Más info</a>
+                                <a href="/cycliquidez" class="text-white font-body xxs:text-xxs sm:text-base font-bold underline underline-offset-4">Más info</a>
                             </div>
                         </div>
                     </div>

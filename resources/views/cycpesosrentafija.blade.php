@@ -5,12 +5,12 @@
 @section('content')
     <div>
         {{-- slide --}}
-        <div style="background-image: url({{ asset('/img/Derechos.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
+        <div style="background-image: url({{ asset('/img/fondo_filtro.png')}}), url({{ asset('/img/fondo_pesos_renta_fija.jpg')}})" class="bg-cover bg-center bg-no-repeat xxs:h-48 xs:h-48 sm:h-84 lg:h-64 xl:h-96">
             <div class="container flex items-center justify-center h-full">
                 <div class="flex flex-col justify-center items-center w-full">
                     <h1 class="font-body text-white text-shadow font-bold text-3xl pb-6 text-center">Coloca tus pesos a atractivas tasas sin perder liquidez</h1>
                     <p class="font-body text-white text-center text-shadow xxs:text-xxs xs:text-base sm:text-1xl md:text-1xl lg:text-1xl xl:text-1xl">
-                        CYC Pesos Renta Fija es un fondo que se enfoca en la inversion de títulos de deuda pagaderos en moneda local. Diversificado por tipos de ajuste de capital e intereses y emisor, el fondo tiene como objetivo superar los rendimientos de los depósitos a plazo fijo medidos en la tasa BADLAR.
+                        CYC Pesos Renta Fija es un fondo que se enfoca en la inversion de títulos de deuda pagaderos en moneda local. Diversificado por tipos de ajuste de capital e intereses y emisor, el fondo tiene como objetivo superar los rendimientos de los depósitos a .plazos fijos medidos en la tasa BADLAR de bancos privados.
                     </p>
                 </div>
                 <div class="xxs:h-3 xs:h-20 sm:h-32 md:h-48 lg:h-80 xl:h-96"></div>
@@ -24,37 +24,37 @@
                     <div class="grid grid-cols-7 gap-0 content-start">
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon project"/>
+                                <img src="{{ asset('/img/icon_01.png') }}" class="w-40" alt="icon project"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon award"/>
+                                <img src="{{ asset('/img/icon_02.png') }}" class="w-40" alt="icon award"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon happy clients"/>
+                                <img src="{{ asset('/img/icon_03.png') }}"class="w-40" alt="icon happy clients"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_04.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_04.png') }}"class="w-40" alt="icon puzzle"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_05.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_05.png') }}"class="w-40" alt="icon puzzle"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_06.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_06.png') }}"class="w-40" alt="icon puzzle"/>
                             </div>
                         </div>
                         <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                             <div>
-                                <img src="{{ asset('/img/icon_07.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-24 xl:h-28" alt="icon puzzle"/>
+                                <img src="{{ asset('/img/icon_07.png') }}"class="w-40" alt="icon puzzle"/>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
                                 Moneda
                             </h4>
                             <h4 class="text-color-cucchiara font-body text-center xxs:text-xxs xs:text-base lg:text-xl">
-                                Dólares
+                                Pesos
                             </h4>
                         </div>
                         <div class="">
@@ -104,7 +104,7 @@
                                 Inversión mínima
                             </h4>
                             <h4 class="text-color-cucchiara font-body text-center xxs:text-xxs xs:text-base lg:text-xl">
-                                Moderado
+                                $1000
                             </h4>
                         </div>
                         <div class="">
@@ -112,7 +112,7 @@
                                 Benchmark
                             </h4>
                             <h4 class="text-color-cucchiara font-body text-center xxs:text-xxs xs:text-base lg:text-xl">
-                                Moderado
+                                BADLAR Bcos. Privados
                             </h4>
                         </div>
                     </div>
@@ -171,17 +171,11 @@
                     <div class="h-28 block" id="space"></div>
                 </div>
                 <div class="my-16 flex flex-col items-center justify-center">
-                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72 mb-2">
-                        Reglamento de<br>gestión
+                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72 mb-2">
+                        Reglamento de gestión
                     </a>
-                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72 mb-2">
-                        Calificación
-                    </a>
-                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72 mb-2">
-                        Resumen semanal
-                    </a>
-                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72">
-                        Resumen mensual
+                    <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl xxs:w-60 xs:w-72 sm:w-72 md:w-72 lg:w-48 xl:w-72 mb-2">
+                        Calificación UNTREF
                     </a>
                 </div>
             </div>
