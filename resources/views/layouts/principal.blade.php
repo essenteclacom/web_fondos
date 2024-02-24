@@ -205,12 +205,12 @@
                                 </div>
                                 <div class="flex items-center justify-center mx-2">
                                     <a href="https://cajadevalores.com.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_02.png') }}" class="w-44" alt="footer_02"/>
+                                        <img src="{{ asset('/img/footer_02.png') }}" class="w-40" alt="footer_02"/>
                                     </a>
                                 </div>
                                 <div class="flex items-center justify-center mx-2">
                                     <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_03.png') }}" class="w-36" alt="footer_03"/>
+                                        <img src="{{ asset('/img/footer_03.png') }}" class="w-32" alt="footer_03"/>
                                     </a>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                                 </div>
                                 <div class="flex items-center justify-center mx-2">
                                     <a href="http://www.cnv.gov.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_05.png') }}" class="w-52" alt="footer_05"/>
+                                        <img src="{{ asset('/img/footer_05.png') }}" class="w-48" alt="footer_05"/>
                                     </a>
                                 </div>
                             </div>

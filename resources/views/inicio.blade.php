@@ -219,9 +219,7 @@
         </p>
         <div class="grid justify-items-center items-center gap-6 grid-cols-1 px-24">
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
-                <a href="https://www.byma.com.ar/" target="_blank">
                     <div class="pl-20"><img src="{{ asset('/img/logo_suscription_01.png') }}" class="w-80" alt="logo_suscription_01"/></div>
-                </a>
                 <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52 pr-10">
                     Cucchiara y Cia. S.A.<br/>
                     <u>info@cucchiara.com.ar</u>
@@ -229,9 +227,7 @@
             </div>
             <div class="border border-services-c w-full"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
-                <a href="https://cajadevalores.com.ar/" target="_blank">
                     <div class="pl-20"><img src="{{ asset('/img/logo_suscription_02.png') }}" class="w-52" alt="logo_suscription_02"/></div>
-                </a>
                 <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Buenos Aires Valores S.A.<br/>
                     <u>informes@bavsa.com</u>
@@ -239,9 +235,7 @@
             </div>
             <div class="border border-services-c w-full"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
-                <a href="https://www.matbarofex.com.ar/" target="_blank">
                     <div class="pl-20"><img src="{{ asset('/img/logo_suscription_03.png') }}" class="w-64" alt="logo_suscription_03"/></div>
-                </a>
                 <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Gio Bursátil S.A.<br/>
                     <u>info@giobursatil.com</u>
@@ -249,9 +243,7 @@
             </div>
             <div class="border border-services-c w-full"></div>
             <div class="flex xxs:flex-col xs:flex-col sm:flex-col md:flex-row justify-between items-center w-full">
-                <a href="https://www.mae.com.ar/" target="_blank">
                     <div class="pl-20"><img src="{{ asset('/img/logo_suscription_04.png') }}" class="w-64" alt="logo_suscription_04"/></div>
-                </a>
                 <p class="text-color-cucchiara xxs:text-center xs:text-center sm:text-center md:text-left my-10 w-52">
                     Bolsa y Mercados Argentinos<br/>
                     <u>byma.fondos@byma.com.ar</u>

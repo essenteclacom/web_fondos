@@ -177,7 +177,7 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/regulaciones">
-                                        <div class="pt-1 font-bold">Normativas<br/>RG 917/2021 CNV</div>
+                                        <div class="pt-1 font-bold">Regulations<br/>RG 917/2021 CNV</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-20 sm:ml-20 md:ml-20 lg:ml-0">
@@ -193,37 +193,39 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
                         <div class="flex justify-center items-center xxs:flex-col xs:flex-col sm:flex-col md:flex-row">
-                            <div class="grid justify-center items-center gap-12 grid-cols-3 mx-2">
-                                <div>
+                            <div class="flex justify-end items-center">
+                                <div class="flex items-center justify-center mx-2">
                                     <a href="https://www.byma.com.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_01.png') }}" class="max-h-40" alt="footer_01"/>
+                                        <img src="{{ asset('/img/footer_01.png') }}" class="w-20" alt="footer_01"/>
                                     </a>
                                 </div>
-                                <div>
+                                <div class="flex items-center justify-center mx-2">
                                     <a href="https://cajadevalores.com.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_02.png') }}" class="max-h-40" alt="footer_02"/>
+                                        <img src="{{ asset('/img/footer_02.png') }}" class="w-40" alt="footer_02"/>
                                     </a>
                                 </div>
-                                <div>
+                                <div class="flex items-center justify-center mx-2">
                                     <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_03.png') }}" class="max-h-40" alt="footer_03"/>
+                                        <img src="{{ asset('/img/footer_03.png') }}" class="w-32" alt="footer_03"/>
                                     </a>
                                 </div>
                             </div>
-                            <div class="grid justify-center items-center gap-6 grid-cols-2 mx-2">
-                                <div>
+                            <div class="flex justify-start items-center">
+                                <div class="flex items-center justify-center mx-2">
                                     <a href="https://www.bcra.gob.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_04.png') }}" class="max-h-40" alt="footer_04"/>
+                                        <img src="{{ asset('/img/footer_04.png') }}" class="w-56" alt="footer_04"/>
                                     </a>
                                 </div>
-                                <div>
+                                <div class="flex items-center justify-center mx-2">
                                     <a href="http://www.cnv.gov.ar/" target="_blank">
-                                        <img src="{{ asset('/img/footer_05.png') }}" class="max-h-40" alt="footer_05"/>
+                                        <img src="{{ asset('/img/footer_05.png') }}" class="w-48" alt="footer_05"/>
                                     </a>
                                 </div>
                             </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey my-4"></div>
                         <div class="text-center py-6">
                             <div>AAPIC registro Nro. 54 CNV.</div>
                             <div>© 2023 CYC Administradora de Fondos S.A. Todos los derechos reservados. Diseño y desarrollo por Folklore </div>
